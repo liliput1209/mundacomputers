@@ -1,0 +1,66 @@
+.log{
+  background-image: url(/assets/img/login/bg.png);
+  background-size: cover;
+  background-position:center;
+}
+
+.box-area{
+  width:930px;
+}
+
+
+.login-vector img{
+  width:500px;
+}
+
+
+.right-box{
+   padding:40px 30px 40px 40px;
+}
+
+::placeholder{
+  font-size: 16px;
+}
+
+
+#footer{
+  height:2.5rem;
+  width:100%;
+  background-color: var(--pale-cyan-blue);
+}
+#footer p{
+  font-size: 15px;
+  color:var(--color--black);
+  font-weight: 500;
+  font-family: var(--primary font);
+  text-align: center;
+  padding-top:4px;
+}
+
+@media only screen and (max-width: 768px){
+
+   .box-area{
+     margin: 0 10px;
+   }
+
+   .left-box{
+    height:100px;
+    overflow:hidden;
+   }
+
+   .right-box{
+    padding:20px;
+   }
+
+   #footer p{
+    font-size: 12px;
+    padding: 0.25rem 0.5rem 0;
+   }
+
+
+
+
+
+}
+
+  
