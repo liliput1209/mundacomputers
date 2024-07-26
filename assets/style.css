@@ -391,7 +391,7 @@ h6 {
 /*footer*/
 
 footer {
-   margin-top: 4rem;
+   margin-top: 2rem;
    padding:3rem 5rem 1rem;
    display: flex;
    flex-wrap: wrap;
@@ -404,7 +404,7 @@ footer .col {
    flex-direction: column;
    align-items: flex-start;
    margin-bottom: 20px;
-   margin-right: 8rem;
+   margin-right:2rem;
 }
 
 footer .copyright {
@@ -418,7 +418,7 @@ footer h2,h4,p{
 
 .logo{
    width:10rem;
-   height:12rem;
+   height:11rem;
    padding-bottom: 1rem;
 }
 
@@ -451,7 +451,11 @@ footer .col a:hover{
    color:var(--luminous-vivid-amber);
 }
 
+/*Director page*/
 
+.left img{
+   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+}
 
 
 
@@ -540,19 +544,21 @@ footer .col a:hover{
 
 
 
-  /*FOOTER*/
+  /*Footer*/
+ footer{
+   flex-direction: column;
+ }
 
-footer {
-   padding: 40px 40px;
+/*Director Page*/
+
+.left img{
+   width:20rem;
+}
+
+#content{
    flex-direction: column;
    justify-content: center;
 }
-
-
-
-
-
-
 
 
 
