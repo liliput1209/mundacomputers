@@ -41,9 +41,9 @@ body{
 .login-button{
    background-color: var(--vivid-cyan-blue);
    color:var(--white);
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 500;
-   padding: 8px 20px;
+   padding: 10px 30px;
    border-radius: 7%;
    text-decoration: none;
    transition: 0.3s background-color;
