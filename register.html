@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="x-icon" href="/assets/img/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admission Enquiry - Munda Computer Edu care</title>
+  <link rel="stylesheet" href="/assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/fontawesome/releases/v6.5.2/css/all.css">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+  
+    <section id="navbar">
+        <nav class="navbar px-2 navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand me-auto" href="#">
+              <img src="/assets/img/logo.png" alt="">
+            </a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                  <img src="/assets/img/logo.png" alt="">
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 p-3">
+                  <li class="nav-item active">
+                    <a class="nav-link mx-lg-2" aria-current="page" href="/home.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle mx-lg-2 " href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      About us
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/director.html">Director</a></li>
+                      <li><a class="dropdown-item" href="/mcec-profile.html">MCEC Profile</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle mx-lg-2" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Our Courses
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Online Courses</a></li>
+                      <li><a class="dropdown-item" href="#">Offline Courses</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link  dropdown-toggle mx-lg-2" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Gallery
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Video Gallery</a></li>
+                      <li><a class="dropdown-item" href="/photo-gallery.html">Photo Gallery</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link   mx-lg-2" href="#">Result</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  mx-lg-2" href="/contact-us.html">Contact us</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link highlight mx-lg-2" href="/register.html">Register</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <a href="/login.html" class="login-button">Login</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </section>
+
+    
+    <!-- Inquiry Form -->
+     
+  <section class="body">
+    <!-- <div class="heading-bg"></div> -->
+      
+   <section class="admission-form pt-5 d-flex justify-content-center">
+   
+    <div class="form d-flex justify-content-center mb-5">
+      
+      <form action="#" class="mx-5 mb-2 py-5 w-90">
+       <div class="form-group py-3">
+        <h2 class="Enquiry-heading text-center py-2">Online Enquiry Form</h2>
+          <label for="course-list" class="text">Admission For:</label>
+          <select name="courses" class="form-control" id="course-list" required>
+                                <option value="">-------- Select a Course --------</option>
+                                <option value="22">Advance Diploma in Computer Hardware &amp; Networking (HWC-03)</option>
+                                <option value="13">Advance Diploma in Computer Science (CAC-11)</option>
+                                <option value="12">Advance Diploma in Web Designing (CAC-10)</option>
+                                <option value="4">Certificate in Basic Computer Application (CAC-02)</option>
+                                <option value="3">Certificate in Basic Knowledge of Computer Application (CAC-01)</option>
+                                <option value="5">Certificate in Financial Computer Accounts (CAC-03)</option>
+                                <option value="16">Certificate in Internet &amp; Multimedia (MTC-01)</option>
+                                <option value="2">Certificate in Steno (CAC-14)</option>
+                                <option value="1">Certificate in Typing (CAC-15)</option>
+                                <option value="23">Certificate in Typing Both Hindi and English (CAC-16)</option>
+                                <option value="6">Diploma in Basic Computer Application (CAC-04)</option>
+                                <option value="19">Diploma in Computer Architecture Designing (MTC-04)</option>
+                                <option value="20">Diploma in Computer Hardware (HWC-01)</option>
+                                <option value="21">Diploma in Computer Hardware Engineering (HWC-02)</option>
+                                <option value="10">Diploma in Computer Office Management (CAC-08)</option>
+                                <option value="11">Diploma in Computer Tutor Training (CAC-09)</option>
+                                <option value="7">Diploma in Desktop Publishing (CAC-05)</option>
+                                <option value="8">Diploma in Financial Computer Accountant (CAC-06)</option>
+                                <option value="18">Diploma in Graphics &amp; Animation Designing (MTC-03)</option>
+                                <option value="14">Diploma in Industrial Computer Accountant (CAC-12)</option>
+                                <option value="17">Diploma in Multimedia &amp; Animation Designing (MTC-02)</option>
+                                <option value="15">Diploma in Software Engineering (CAC-13)</option>
+                                <option value="9">Diploma in Web Designing (CAC-07)</option>
+                                <option value="24">Online Web Designing &amp; Training (CAC-17)</option>
+                                <option value="25">RSCIT @ Home (CAC-18)</option>
+          </select>
+        </div>
+        <div class="row py-3">
+            <div class="col py-2">
+              <label for="first-name"  class="text">First Name*</label>
+              <input type="text" id="first-name" placeholder="First name" class="form-control" required>
+
+            </div>
+            <div class="col py-2"> 
+              <label for="last-name"  class="text">Last Name*</label>
+              <input type="text" id="last-name" placeholder="Last name" class="form-control" required>
+            </div>
+        </div>
+        <div class="row pt-2 pb-3">
+           <div class="gender col">
+            <label class="col-form-label text">Gender*</label>
+            <div class="form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="male" checked>
+              <label class="form-check-label text" for="male">
+                Male
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="female" >
+              <label class="form-check-label text" for="female">
+                Female
+              </label>
+            </div>
+           </div>
+        
+        <div class="dob col">
+          <label for="dob"  class="text">Date of Birth</label>
+          <input  type="date" id="dob" class="form-control">
+        </div>
+      </div>
+         <div class="row py-3">
+          <div class="col d-flex flex-column py-2">
+            <label for="mother-name" class="text">Mother Name</label>
+            <input type="text" id="mother-name" placeholder="Mother name" class="form-control" required>
+           </div>
+          
+          <div class="col d-flex flex-column py-2"> 
+            <label for="father-name" class="text">Father Name</label>
+            <input type="text" id="father-name" placeholder="Father name" class="form-control" required>
+          </div>
+  
+        </div>
+      
+        <div class="row py-3">
+          <div class="address py-2 col">
+            <label for="address" class="text">Address</label>
+            <textarea name="address" id="address" class="form-control" rows="5" placeholder="Address" required></textarea>
+          </div>
+          <div class="city py-2 col">
+            <label for="city" class="text">City</label>
+            <input type="text" name="city" id="city" class="form-control" placeholder="City" required>
+            <div class="city-zip-code pt-3"> 
+              <label for="zip=code" class="text">Zip Code</label>
+              <input type="text" name="city-zip-code" id="zip-code" class=" form-control" placeholder="Zip Code" required>
+            </div>
+          </div>
+        </div>
+        
+       <div class="row location py-2">
+            <div class="col">
+              <label for="state" class="text">State</label>
+              <input type="text" name="state" id="state" class="form-control" required>
+            </div>
+            <div class="col">
+              <label for="nationality" class="text">Nationality</label>
+              <input type="text" name="nationality" id="nationality" class="form-control" required>
+            </div>
+       </div>
+
+       <div class="row contact py-2">
+        <div class="col">
+          <label for="phone" class="text">Contact No*</label>
+          <input type="text" name="phone" id="phone" class="form-control" required>
+        </div>
+        <div class="col">
+          <label for="email" class="text">Email</label>
+          <input type="tel" name="email" id="email" class="form-control" required>
+        </div>
+      </div>
+
+      <div class="row qualification py-2">
+        <div class="col">
+          <label for="qualification" class="text">Qualification*</label>
+          <input type="text" name="qualification" id="qualification" class="form-control" placeholder="Qualification" required>
+        </div>
+        <div class="col">
+          <label for="id-proof" class="text">ID Proof*</label>
+          <input type="file" name="id-proof" id="id-proof" class="form-control" required>
+        </div>
+      </div>
+
+      <div class="row docs py-2">
+        <div class="col">
+          <label for="photo" class="text">Photo*</label>
+          <input type="file" name="photo" id="photo" class="form-control" required>
+        </div>
+        <div class="col">
+          <label for="Signature" class="text">Signature*</label>
+          <input type="file" name="Signature" id="Signature" class="form-control" required>
+        </div>
+      </div>
+
+      <div class="message py-2">
+        <label for="message" class="text">Message</label>
+        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"></textarea>
+      </div>
+      <div class="d-grid mt-5">
+          <button class="btn submit" type="submit">Submit form</button>
+      </div>
+      </form>
+    </div>
+  </section>
+
+</section>
+
+
+
+
+
+
+
+     <!-- Footer -->
+    
+     <footer class="footer">
+ 
+        <div class="col">
+            
+            <h2>Munda Computer Edu-Care</h2>
+            <p>The programs and data stored on this system are licensed to or are the property of Munda Computer Edu Care. This is a private computing system for use only by authorized users. Unauthorized access to any program or data on this system is not permitted. By accessing and using this system you are consenting to system monitoring for law enforcement and other purposes. Unauthorized use of this system may subject you to criminal prosecution and penalties.</p>
+            
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/mundaeducare/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/ksmunda" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://profiles.wordpress.org/ksmunda/" target="_blank"><i class="fa-brands fa-wordpress"></i></a>
+                    <a href="https://www.youtube.com/channel/UCHpCJmP4S2x-06-y_QJ4n4g" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2>Useful Links</h2>
+            <a href="#" target="_blank">Meet Our Team</a>
+            <a href="#" target="_blank">Blog</a>
+            <a href="#" target="_blank">Download</a>
+            <a href="#" target="_blank">Registration for Quiz Hub</a>
+        </div>
+      
+        <img src="/assets/img/logo.png" class="logo" alt="">
+        <div class="copyright">
+            <p>Copyright © 2009 - 2024 : Munda Computer Edu Care | Powered by TEJAS Information Technology</p>
+        </div>
+      </footer>
+
+
+
+
+    <script src="/assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+   
+    
+</body>
+</html>

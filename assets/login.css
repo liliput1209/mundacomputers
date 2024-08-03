@@ -37,7 +37,12 @@
   padding-top:4px;
 }
 
+
 @media only screen and (max-width: 768px){
+   
+   .login-vector img{
+       
+  }
 
    .box-area{
      margin: 0 10px;
