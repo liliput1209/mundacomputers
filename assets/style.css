@@ -667,29 +667,36 @@ footer .col a:hover{
    color:var(--white);
 }
 
-/*#form-details .people div p{
-   margin:0;
-   font-size:  13px;
-   line-height:25px;
-}
-
-#form-details .people div p span{
-   display:block;
-   font-size: 16px;
-   font-weight: 600;
-   color:#000;
-}*/
 
 .details p{
    color:var(--vivid-cyan-blue);
    font-size: 2rem;
 }
 
+/*our-Team Page*/
 
+.team{
+   padding: 5rem 0 10rem;
+}
 
+.team h1{
+   font-size: 3rem;
+}
 
+.footer-menu .team-member{
+   width:20rem;
+   height:26rem;
+   padding-top:0;
+  /*background:linear-gradient(to bottom right,var(--pale-cyan-blue),var(--vivid-cya*/
+  background-color: var(--luminous-vivid-amber);
+  border:none;
+}
 
-
+.team-member img{
+   margin-top: 1rem;
+   height:20rem;
+   border-radius: 1.1rem;
+}
 
 
 
