@@ -218,9 +218,7 @@ h1{
    color:var(--vivid-cyan-blue);
    font-weight:800;
 }
-h5{
-   color:var(--vivid-cyan-blue);
-}
+
 
 .notifyvector img{
    height: 30rem;
@@ -245,7 +243,7 @@ h5{
    }
 }
 
-.noticeboard:hover .mainboard{
+.noticeboard:hover .mainboard,.blogboard:hover .mainboard{
    animation-play-state: paused;
 }
 
@@ -783,7 +781,16 @@ footer .col a:hover{
 
 /*Blog Post*/
 
-
+.comment-button{
+   background-color: var(--vivid-cyan-blue);
+   color:var(--white);
+   width:10rem;
+   margin-left: 1rem;
+   margin-top: 1rem;
+   padding:0.8rem 1rem;
+   text-align: center;
+   border-radius: 7px;
+}
 
 .blogboard{
    margin-top:2rem;
@@ -793,8 +800,16 @@ footer .col a:hover{
    height:20rem;
 }
 
+#blog-post h3{
+   color:var(--vivid-cyan-blue);
+   font-weight:800;
+}
 
-
+.blog-post-content{
+   padding:2.5rem 2rem 4.9rem;
+   margin-right:2.5rem;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 
 
@@ -968,6 +983,28 @@ footer .col a:hover{
    height:10rem;
    text-align: center;
 }
+
+/*Blog Page*/
+
+#blog-content div{
+   flex-direction: column;
+}
+
+#blog-post div{
+   flex-direction: column;
+}
+
+#blog-post .download{
+   flex-direction: row;
+}
+
+.notice-section h3{
+   margin-top: 1rem;
+}
+
+
+
+
 
 }
 
