@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="x-icon" href="/assets/img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard - Munda Computer Edu care</title>
+    <link rel="stylesheet" href="/assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/fontawesome/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/dashboard/profile.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <section id="navbar">
+        <nav class="navbar px-2 navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto" href="#">
+                    <img src="/assets/img/logo.png" alt="">
+                </a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="/assets/img/logo.png" alt="">
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 p-3">
+                            <li class="nav-item active">
+                                <a class="nav-link mx-lg-2" aria-current="page" href="/home.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle mx-lg-2 " href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    About us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/director.html">Director</a></li>
+                                    <li><a class="dropdown-item" href="/mcec-profile.html">MCEC Profile</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle mx-lg-2" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Courses
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/courses.html">Online Courses</a></li>
+                                    <li><a class="dropdown-item" href="#">Offline Courses</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle mx-lg-2" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Gallery
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Video Gallery</a></li>
+                                    <li><a class="dropdown-item" href="/photo-gallery.html">Photo Gallery</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  mx-lg-2" href="#">Result</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  mx-lg-2" href="/contact-us.html">Contact us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle mx-lg-2 highlight" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/dashboard/dashboard.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="/dashboard/profile-2/profile-2.html">Profile</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="/dashboard/cart.html">My Cart</a></li>
+                                    <li><a class="dropdown-item" href="/dashboard/checkout.html">Checkout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a href="/login.html" class="login-button">Log Out</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Content -->
+    <section class="dashboard">
+        <div class="header d-flex justify-content-around align-items-center px-1 pt-5">
+            <div class="d-flex">
+                <button class="btn px-md-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+                <div class="avatar d-flex align-items-center justify-content-center">
+                    <img src="/assets/img/avatar/girlAvatar.png" alt="" height="70">
+                </div>
+                <div class="d-flex px-2 flex-column">
+                    <h6 class="text-black p-0">Hello</h6>
+                    <h3>Poorvi Gupta</h3>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-outline-primary">Become a Instructor</button>
+            </div>
+        </div>
+        <hr>
+
+        </div>
+        <div class="profile-content">
+
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="side-bar d-flex flex-column px-4">
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag"><i class="fa-solid fa-gauge"></i></div>
+                            <div><a href="/dashboard/dashboard.html" class="text-decoration-none lh-1 ">Dashboard</a></div>
+                        </div>
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div><a href="/dashboard/profile.html" class="text-decoration-none lh-1 opened">My Profile</a></div>
+                        </div>
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag"><i class="fa-solid fa-user-graduate"></i></div>
+                            <div><a href="/dashboard/enrolled-courses.html" class="text-decoration-none lh-1">Enrolled Courses</a></div>
+                        </div>
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag"><i class="fa-regular fa-bookmark"></i></div>
+                            <div><a href="/dashboard/wishlist.html" class="text-decoration-none lh-1">Wishlist</a></div>
+                        </div>
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag"><i class="fa-solid fa-cubes"></i></div>
+                            <div><a href="/dashboard/my-quiz-attempt.html" class="text-decoration-none lh-1">My Quiz Attempts</a></div>
+                        </div>
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag"><i class="fa-solid fa-cart-arrow-down"></i></div>
+                            <div>
+                                <a href="/dashboard/purchase_history.html" class="text-decoration-none">Order History</a>
+                            </div>
+                        </div>
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag"><i class="fa-solid fa-circle-question"></i></div><a href="/dashboard/question-and-answer.html"
+                                class="text-decoration-none">Question & Answer</a>
+                        </div>
+
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag"><i class="fa-solid fa-gear"></i></div>
+                            <div>
+                                <a href="/dashboard/settings/profile.html" class="text-decoration-none ">Settings</a>
+                            </div>
+                        </div>
+                        <div class="side-text py-2 d-flex">
+                            <div class="i-tag"><i class="fa-solid fa-right-from-bracket"></i></div>
+                            <div><a href="/home.html" class="text-decoration-none">Logout</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="my-profile">
+            
+                <p class="text-black fs-4 fw-bold">My Profile</p>
+
+                <div class="d-flex">
+                    <p class="text-black fs-6">Registration Date -</p>
+                    <p class="text-black fw-bold ">---</p>
+                </div>
+
+                <div class="d-flex">
+                    <p class="text-black fs-6 ">First Name - </p>
+                    <p class="text-black fw-bold ">---</p>
+                </div>
+                <div class="d-flex">
+                    <p class="text-black fs-6">Last Name - </p>
+                    <p class="text-black  fw-bold">---</p>
+                </div>
+                <div class="d-flex">
+                    <p class="text-black fs-6">Username - </p>
+                    <p class="text-black fw-bold">---</p>
+                </div>
+                <div class="d-flex">
+                    <p class="text-black fs-6">Email - </p>
+                    <p class="text-black fw-bold">---</p>
+                </div>
+                <div class="d-flex">
+                    <p class="text-black fs-6 ">Phone Number - </p>
+                    <p class="text-black fw-bold ">---</p>
+                </div>
+                <div class="d-flex">
+                    <p class="text-black fs-6 ">Skill/Occupation - </p>
+                    <p class="text-black fw-bold ">---</p>
+                </div>
+                <div class="d-flex">
+                    <p class="text-black fs-6 ">Biography - </p>
+                    <p class="text-black  fw-bold ">---</p>
+                </div>
+            
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer mt-0">
+
+        <div class="col">
+
+            <h2>Munda Computer Edu-Care</h2>
+            <p>The programs and data stored on this system are licensed to or are the property of Munda Computer Edu
+                Care. This is a private computing system for use only by authorized users. Unauthorized access to any
+                program or data on this system is not permitted. By accessing and using this system you are consenting
+                to system monitoring for law enforcement and other purposes. Unauthorized use of this system may subject
+                you to criminal prosecution and penalties.</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/mundaeducare/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/ksmunda" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://profiles.wordpress.org/ksmunda/" target="_blank"><i
+                            class="fa-brands fa-wordpress"></i></a>
+                    <a href="https://www.youtube.com/channel/UCHpCJmP4S2x-06-y_QJ4n4g" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h2>Useful Links</h2>
+            <a href="/our-Team.html" target="_blank">Meet Our Team</a>
+            <a href="/blog.html" target="_blank">Blog</a>
+            <a href="#" target="_blank">Download</a>
+            <a href="#" target="_blank">Registration for Quiz Hub</a>
+        </div>
+
+        <img src="/assets/img/logo.png" class="logo" alt="">
+        <div class="copyright">
+            <p>Copyright © 2009 - 2024 : Munda Computer Edu Care | Powered by TEJAS Information Technology</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="/assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

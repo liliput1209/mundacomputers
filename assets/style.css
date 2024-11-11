@@ -12,7 +12,7 @@
       --light-green-cyan: #86ff2a;
       --vivid-green-cyan: #14bb89;
       --pale-cyan-blue:/*#8ed1fc;*/ #86fdf1;
-      --vivid-cyan-blue: #071952;/*#1F3463;*/
+      --vivid-cyan-blue: #071952;
       --vivid-purple: #9b51e0;
       --brown: #775E2B;
       --primary-font: 'Roboto' , 'sans-serif';
@@ -71,7 +71,7 @@ body{
    font-size: 1.15rem;
 }
 
-.nav-link:hover,.nav-link.highlight{
+.nav-link:hover,.nav-link.highlight,.enrolled-courses .course-category.highlight{
    transform: scale(1.1);
 }
 
@@ -83,7 +83,7 @@ body{
    position: relative;
 }
 
-.nav-link::before{
+.nav-link::before,.enrolled-courses .course-category::before{
    content:"";
    position: absolute;
    bottom:0;
@@ -97,8 +97,8 @@ body{
 }
 
 
-.nav-link:hover::before,.nav-link.highlight::before{
-   width:90%;
+.nav-link:hover::before,.nav-link.highlight::before,.enrolled-courses .course-category.highlight::before{
+   width:100%;
    visibility:visible;
 }
 
@@ -432,7 +432,7 @@ footer h2,h4,p{
 .icon i{
    font-size: 1.5rem;
    color: var(--white);
-   margin-right: 0.2rem;
+   margin-right: 0.7rem;
 }
 
 .icon i:hover{
@@ -811,8 +811,29 @@ footer .col a:hover{
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/*quiz-page*/
 
+.quiz-body{
+  background: url(/assets/img/quiz-bg.png);
+  background-position: center;
+  background-size: cover;
+  margin-top:6.5rem;
+}
 
+.quiz-form{
+   background-color: var(--pale-cyan-blue);
+   border:1px solid var(--vivid-cyan-blue);
+   border-radius: 5%;
+}
+
+.quiz-submit{
+   background-color: var(--vivid-cyan-blue);
+   color:var(--white);
+}
+
+.purchase_history{
+   margin:2rem 4rem;
+}
 
 
 
@@ -1001,6 +1022,30 @@ footer .col a:hover{
 .notice-section h3{
    margin-top: 1rem;
 }
+
+.purchase_history{
+   justify-content: none;
+   flex-direction: column;
+   
+}
+
+.purchase_history .buttons{
+   margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

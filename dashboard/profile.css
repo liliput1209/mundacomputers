@@ -1,0 +1,301 @@
+.avatar{
+    background-color: rgb(228, 224, 224);
+    height:4.5rem;
+    width:4.5rem;
+    border-radius: 100%;
+}
+
+
+.side-bar i{
+    cursor: pointer;
+    margin:0 auto;
+    text-align: center;
+}
+
+.side-bar .i-tag{
+    width:2rem;
+    padding-right:1rem;
+}
+
+.side-text{
+   text-align: center;
+}
+
+.side-bar a{
+    font-size:1rem;
+    color:#071952;
+    text-align:start;
+}
+
+.side-bar a:hover{
+    color:var(--luminous-vivid-amber);
+}
+
+.side-bar a.opened{
+    color:var(--luminous-vivid-amber);
+}
+
+.line{
+    width:0.07rem;
+    height:25rem;
+    background-color: gray;
+}
+
+.set-pic{
+    height:3rem;
+    background-color: antiquewhite;
+   
+    
+    margin-top:2rem;
+}
+
+
+.profile-content .box{
+    width:15rem; 
+    height:10rem;
+    background-color:antiquewhite ;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    
+}
+
+
+
+.profile-content .box:hover{
+    transform: translateY(-5%);
+}
+
+.profile-content .course-tracker{
+    
+    height:14rem;
+    background-color: antiquewhite;
+    margin:0 2rem;
+}
+
+.completed-part{
+   
+    height: 0.5rem;
+    background-color: rgb(213, 201, 201);
+}
+
+/*My-Profile Page*/
+
+.my-profile,.enrolled-courses{
+   padding:0 10rem;
+}
+
+.my-profile div{
+    width:20rem;
+    
+}
+
+/*Enrolled-Courses Page*/
+
+.enrolled-courses{
+    cursor: pointer;
+    
+}
+.enrolled{
+    width:15rem;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+/*dashboard*/
+
+.dashboard button{
+    font-size: 14px;
+ }
+ 
+ /*dashboard_purchase_history page*/
+ input[type="date"]{
+    background-color:#0080ff;
+    padding: 8px;
+    font-family:"Roboto Mono",monospace;
+    color:#ffffff;
+    font-size: 18px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    margin:0 5px;
+ }
+ ::-webkit-calendar-picker-indicator{
+    background-color:#ffffff;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+ }
+
+ /*settings/Profile.html page*/
+
+ .cover-photo{
+    width:75%;
+ }
+ .avatar-profile{
+    position:absolute;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: bisque;
+    left:16rem;
+    bottom:-2.5rem;
+    border:2px solid white;
+    cursor:pointer;
+ }
+
+ .settings button{
+    right:15rem;
+    bottom:1.5rem;
+    padding:1rem;
+ }
+
+.settings button i{
+    color:rgb(240, 245, 94);
+}
+
+.profile-photo-cam{
+    top:-1rem;
+    left:15.2rem;
+    color:white;
+    font-size: 2rem;
+    cursor:pointer;
+}
+
+/*profile-2/downloads.html*/
+.downloads{
+    background-color: var(--pale-cyan-blue);
+    height:2.5rem;
+    width:70%;
+    border-radius: 5%;
+}
+
+/*profile-2/edit-address.html*/
+.billing{
+    background-color:aliceblue;
+    border:1px solid #071952;
+    height:2.5rem;
+}
+
+/*dashboard/cart.html*/
+
+.cart input[type='number']{
+    width: 60px;
+} 
+
+
+
+.cart tbody{
+    vertical-align: baseline;
+}
+
+.cart .checkout{
+     width:100%;
+     margin:0 auto;
+}
+
+.cart img{
+    width:7rem;
+    height:7rem;
+ }
+
+ /*dashboard/checkout.html*/
+
+ .checkout-page{
+    padding:2rem 14rem;
+ }
+ .checkout-page .pop-up{
+    background-color: rgb(206, 253, 253);
+    border:1px #071952 solid;
+    padding:10px;
+ }
+
+ .checkout-page .pop-up i{
+    font-size:1.25rem;
+    color:black;
+ }
+
+.checkout-page .pop-up-box{
+    display: none;
+}
+
+.checkout-page .checkout-box{
+    width:30rem;
+    height:40rem;
+    padding:2rem;
+}
+
+.checkout-page .pop-box{
+    font-size: small;
+    background-color:#dbeaf9;
+    padding:1rem 3rem;
+    margin-top:1rem;
+}
+
+.checkout-page .paypal-button{
+    width:100%;
+    font-size: 1.05rem;
+}
+
+
+
+
+
+
+
+@media(max-width:576px){
+    .enrolled-courses .course-sub-heading{
+       gap:2;
+    }
+
+    /*dashboard/settings/profile.html*/
+    .cover-photo{
+        width:100%;
+     }
+    .avatar-profile{
+        width:5rem;
+        height:5rem;
+        bottom:4.5rem;
+        left:5rem;
+    }
+    .settings button{
+        right: 5rem;
+        bottom:7.5rem;
+        padding:0.3rem;
+     }
+
+     /*dashboard/cart.html*/
+     .cart .cart-table{
+        width:100%;
+     }
+
+     .cart img{
+        width:3rem;
+        height:3rem;
+     }
+  
+    .cart input[type='number']{
+        width: 30px;
+    } 
+
+    .cart .cart-table button{
+        font-size: 0.8rem;
+        
+    }
+    .cart .cart-table .coupon{
+       width:6rem;
+       padding-right: 1rem;
+    }
+  
+    /*dashboard/checkout.html*/
+    .checkout-page{
+        padding:1rem 2rem;
+    }
+    .checkout-page .checkout-div{
+        flex-direction: column;
+    }
+    .checkout-page .checkout-box{
+        width:25rem;
+        
+    }
+    
+}
